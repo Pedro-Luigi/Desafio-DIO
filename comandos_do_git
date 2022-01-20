@@ -1,0 +1,24 @@
+Esse arquivo mostra comandos para a criação de um repositório git/github.
+
++ Setar usuário
+	git config --global user.name "Leonardo Comelli"
++ Setar email
+	git config --global user.email leonardo@software-ltda.com.br
++ Setar editor
+	git config --global core.editor vim
++ Setar ferramenta de merge
+	git config --global merge.tool vimdiff
++ Setar arquivos a serem ignorados
+	git config --global core.excludesfile ~/.gitignore
++ Listar configurações
+	git config --list
++ Criar novo repositório
+	git init
++ Verificar estado dos arquivos/diretórios
+	git status
++ Adicionar um arquivo 
+	git add arquivo.txt
++ Comitar um arquivo
+	git commit arquivo.txt
++ Enviar arquivos/diretórios para o repositório remoto
+	git push origin master
